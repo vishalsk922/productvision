@@ -216,7 +216,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({
             </div>
           </div>
 
-          {/* Academic Transparency Note */}
+          {/* Security Architecture Note */}
           <div className="p-3 rounded-xl bg-slate-950/70 border border-slate-800 text-[11px] text-slate-400 flex items-start gap-2">
             <ShieldCheck className="w-4 h-4 text-cyan-400 shrink-0 mt-0.5" />
             <div>

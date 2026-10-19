@@ -27,7 +27,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
                 Next-Gen 3D WebGL Configurator
               </span>
               <span className="text-slate-600">•</span>
-              <span className="text-xs text-slate-400">BTech IT Major Project</span>
+              <span className="text-xs text-slate-400">Real-Time Studio</span>
             </div>
 
             {/* Main Headline */}
@@ -96,7 +96,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
                   {/* Top Floating Badge */}
                   <div className="absolute top-4 left-4 flex items-center gap-2 px-3 py-1.5 rounded-lg bg-slate-950/80 backdrop-blur-md border border-cyan-500/40 text-xs font-mono text-cyan-300">
                     <Sparkles className="w-3.5 h-3.5 text-cyan-400 animate-pulse" />
-                    <span>Flagship Demo: Apex GT-R</span>
+                    <span>Featured Vehicle: Apex GT-R</span>
                   </div>
 
                   {/* Studio Status Marker */}

@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, Gauge, Zap, Flame, ShieldAlert, Sparkles, CheckCircle2 } from 'lucide-react';
+import { ArrowRight, Gauge, Zap, Flame, Sparkles, CheckCircle2 } from 'lucide-react';
 import type { Product } from '../../types';
 import { formatCurrency } from '../../lib/pricingEngine';
 
@@ -27,10 +27,10 @@ export const FeaturedProduct: React.FC<FeaturedProductProps> = ({
             </h2>
           </div>
 
-          {/* Academic Transparency Badge */}
-          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg bg-slate-900/90 border border-amber-500/30 text-amber-300 text-xs font-medium">
-            <ShieldAlert className="w-4 h-4 text-amber-400" />
-            <span>Academic Demo Prototype • Simulated Vehicle Data</span>
+          {/* Custom Build Studio Badge */}
+          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-lg bg-slate-900/90 border border-cyan-500/30 text-cyan-300 text-xs font-medium">
+            <CheckCircle2 className="w-4 h-4 text-cyan-400" />
+            <span>Custom Build Studio • 2026 Edition</span>
           </div>
         </div>
 

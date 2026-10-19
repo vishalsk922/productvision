@@ -157,7 +157,7 @@ export const SpecSheetModal: React.FC<SpecSheetModalProps> = ({
             <ShieldCheck className="w-4 h-4 text-emerald-400" />
             <span>Deterministic Math Verified • No hidden dealer fees</span>
           </div>
-          <span>BTech IT Project</span>
+          <span className="font-mono text-cyan-400">Official Build Spec</span>
         </div>
       </div>
     </div>
