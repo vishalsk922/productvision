@@ -155,7 +155,7 @@ export const SpecSheetModal: React.FC<SpecSheetModalProps> = ({
         <div className="flex items-center justify-between pt-2 border-t border-slate-800 text-[11px] text-slate-400">
           <div className="flex items-center gap-1.5">
             <ShieldCheck className="w-4 h-4 text-emerald-400" />
-            <span>Deterministic Math Verified • No hidden dealer fees</span>
+            <span>Deterministic Math Verified • Architect: Vishal Kumar Mohaniya</span>
           </div>
           <span className="font-mono text-cyan-400">Official Build Spec</span>
         </div>

@@ -122,7 +122,13 @@ export const Footer: React.FC<FooterProps> = ({ setActiveTab }) => {
 
         {/* Bottom Bar */}
         <div className="mt-12 pt-6 border-t border-slate-900 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-400 gap-4">
-          <p>© {new Date().getFullYear()} ProductVision. All rights reserved.</p>
+          <p>
+            © {new Date().getFullYear()} ProductVision. Designed & Engineered by{' '}
+            <span className="text-slate-200 font-medium hover:text-cyan-400 transition-colors">
+              Vishal Kumar Mohaniya
+            </span>
+            .
+          </p>
           <div className="flex items-center space-x-6">
             <span className="flex items-center gap-1.5 hover:text-slate-300 transition">
               <Layers className="w-3.5 h-3.5 text-cyan-400" />
